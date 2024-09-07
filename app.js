@@ -18,7 +18,7 @@ switch (command) {
     case 'remove':
             fileActions.create(`${fs.realpathSync('.')}/tasks/${file}`);
         break;
-
+//fdsfsd
     case 'read':
             fileActions.create(`${fs.realpathSync('.')}/tasks/${file}`);
         break;
