@@ -1,30 +1,28 @@
 import fs from 'fs';
+import getCurrentDate from '../funcSys/currentTime.js';
+import getLog from '../funcSys/updateLog.js';
 
 let newTask = {
     'title': '',
     'text': '',
     'date': '',
     'status': '',
+    'list-tasks': '',
 };
 
 export default (file, title, text) => {
     newTask.title = title;
     newTask.text = text;
     newTask.date = getCurrentDate();
-    newTask.status = "false";
+    newTask.status = "true";
     
     fs.writeFile(`${file}.json`, JSON.stringify(newTask), (err)=>{
-        if(err) return console.log("При выполнении запроса возникла ошибка: " + err);
+        if(err) {
+            getLog(`Возникла ошибка при создании задачи \"${title}\" ` + err);
+            return console.log("При выполнении запроса возникла ошибка. Проверьте правильность введённых данных.");
+        }
+        getLog(`Создана задача \"${title}\"`)
     
         console.log('Задача создана!');
     });
 };
-
-function getCurrentDate(){
-    let currentTime = new Date();
-
-    let day = (currentTime.getDate() < 10) ? `0${currentTime.getDate()}` : `${currentTime.getDate()}`;
-    let month = (currentTime.getMonth() + 1 < 10) ? `0${currentTime.getMonth() + 1}` : `${currentTime.getMonth() + 1}`;
-    
-    return `${day}.${month}.${currentTime.getFullYear()} ${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()}`;
-}

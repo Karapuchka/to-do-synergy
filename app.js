@@ -1,26 +1,35 @@
-import fileActions from './funcTasks/index.js';
+import funcTask from './funcTasks/index.js';
+import funcList from './funcListTask/index.js';
 import fs from 'fs';
 
 const command = process.argv[2];
-const file = process.argv[3];
-const title = process.argv[4];
-const text = process.argv[5];
+const title = process.argv[3], fileName = process.argv[3];
+const text = process.argv[4], listName = process.argv[4];
+
 
 switch (command) {
-    case 'create':
-            fileActions.create(`${fs.realpathSync('.')}/tasks/${file}`, title, text);
+    case 'create-task':
+            funcTask.create(`${fs.realpathSync('.')}/tasks/${title}`, title, text);
         break;
 
-    case 'update':
-            fileActions.create(`${fs.realpathSync('.')}/tasks/${file}`, title);
+    case 'update-task':
+            funcTask.create(`${fs.realpathSync('.')}/tasks/${title}`, title, text);
         break;
 
-    case 'remove':
-            fileActions.create(`${fs.realpathSync('.')}/tasks/${file}`);
+    case 'remove-task':
+            funcTask.create(`${fs.realpathSync('.')}/tasks/${title}`);
         break;
 
-    case 'read':
-            fileActions.create(`${fs.realpathSync('.')}/tasks/${file}`);
+    case 'read-task':
+            funcTask.create(`${fs.realpathSync('.')}/tasks/${title}`);
+        break;
+    
+    case 'create-list': 
+            funcList.create(`${fs.realpathSync('.')}/listsTasks/${title}`, title, text)
+        break;
+
+    case 'update-list':
+        funcList.insert(fileName, listName);
         break;
     default:
         console.log("Указанная некорректная команда! Список доступных комнад:");
