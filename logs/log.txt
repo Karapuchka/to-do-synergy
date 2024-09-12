@@ -1,42 +1,5 @@
-11.09.2024 15:20:41 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:20:42 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:20:43 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:20:43 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:20:44 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:20:45 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:20:52 | Создан список задач "/home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr"
-11.09.2024 15:20:55 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:22:22 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:23:29 | Создан список задач "/home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr"
-11.09.2024 15:26:22 | Создан список задач "/home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr"
-11.09.2024 15:28:15 | Создана задача "/home/administrator/Documents/Github/to-do-synergy/tasks/Список дел на день"
-11.09.2024 15:28:31 | Создан список задач "/home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr"
-11.09.2024 15:29:29 | Создан список задач "/home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr"
-11.09.2024 15:31:58 | Создан список задач "cgbcjr"
-11.09.2024 15:32:9 | Создана задача "Список дел на день"
-11.09.2024 15:46:19 | Создан список задач "cgbcjr"
-11.09.2024 16:14:40 | Создан список задач "cgbcjr"
-11.09.2024 16:15:5 | Создан список задач "cgbcjr"
-11.09.2024 16:19:8 | Создан список задач "cgbcjr"
-11.09.2024 16:32:15 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:33:2 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:34:33 | Создан список задач "cgbcjr"
-11.09.2024 16:34:36 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:34:45 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:35:4 | Создан список задач "cgbcjr"
-11.09.2024 16:35:7 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:35:14 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:35:21 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:35:57 | Создан список задач "cgbcjr"
-11.09.2024 16:35:58 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:36:14 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:36:23 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:36:38 | Создан список задач "cgbcjr"
-11.09.2024 16:36:40 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:36:46 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:36:49 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:54:3 | Создан список задач "cgbcjr"
-11.09.2024 16:54:5 | Задача "Список дел на день добавлена в список  "cgbcjr!
-11.09.2024 16:54:9 | Попытка повторно добавить задачу "Список дел на день в список "cgbcjr.
-11.09.2024 16:54:18 | Попытка повторно добавить задачу "Список дел на день в список "cgbcjr.
-11.09.2024 17:20:46 | Создана задача "Список дел на день"
+12.09.2024 13:46:45 | Попытка изменить несуществующую задачу
+12.09.2024 14:00:50 | Создана задача "Список дел на день"
+12.09.2024 14:12:08 | При чтении задачи /home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg возникла ошибка: Error: ENOENT: no such file or directory, open '/home/administrator/Documents/Github/to-do-synergy/tasks//home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg'
+12.09.2024 14:12:21 | При чтении задачи /home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg возникла ошибка: Error: ENOENT: no such file or directory, open '/home/administrator/Documents/Github/to-do-synergy/tasks//home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg.json'
+12.09.2024 16:45:02 | Создан список задач "cgbcтимтмитjr"

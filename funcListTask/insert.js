@@ -4,7 +4,7 @@ import getLog from '../funcSys/updateLog.js';
 export default (taskName, listName)=>{
 
     try {
-        if(fs.readFileSync(`./tasks/${taskName}.json`) && fs.realpathSync(`./listsTasks/${listName}.json`)){
+        if(fs.realpathSync(`./tasks/${taskName}.json`) && fs.realpathSync(`./listsTasks/${listName}.json`)){
             fs.readFile(fs.realpathSync(`./listsTasks/${listName}.json`), (err, data)=>{
                 if(err) {
                     getLog(`При добавлении задачи \"${taskName}\ в список \"${listName}\ возникла ошибка: ` + err);
@@ -37,6 +37,7 @@ export default (taskName, listName)=>{
             });
         };
     } catch (error) {
+        getLog(`Попытка изменить несуществующую задачу или список задач.`);
         console.log("Такой задачи или списка задач не существует!");
     }
 };

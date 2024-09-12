@@ -7,14 +7,13 @@ let newTask = {
     'text': '',
     'date': '',
     'status': '',
-    'list-tasks': '',
 };
 
 export default (file, title, text) => {
     newTask.title = title;
     newTask.text = text;
     newTask.date = getCurrentDate();
-    newTask.status = "true";
+    newTask.status = "false";
     
     fs.writeFile(`${file}.json`, JSON.stringify(newTask), (err)=>{
         if(err) {
