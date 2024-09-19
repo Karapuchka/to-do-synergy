@@ -2,4 +2,22 @@
 12.09.2024 14:00:50 | Создана задача "Список дел на день"
 12.09.2024 14:12:08 | При чтении задачи /home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg возникла ошибка: Error: ENOENT: no such file or directory, open '/home/administrator/Documents/Github/to-do-synergy/tasks//home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg'
 12.09.2024 14:12:21 | При чтении задачи /home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg возникла ошибка: Error: ENOENT: no such file or directory, open '/home/administrator/Documents/Github/to-do-synergy/tasks//home/administrator/Documents/Github/to-do-synergy/tasks/gdfgdfg.json'
-12.09.2024 16:45:02 | Создан список задач "cgbcтимтмитjr"
+12.09.2024 16:45:02 | Создан список задач "cgbcтимтмитjr"16.09.2024 11:56:54 | При чтении списка /home/administrator/Documents/Github/to-do-synergy/listTasks/cgbcjr возникла ошибка: Error: ENOENT: no such file or directory, open '/home/administrator/Documents/Github/to-do-synergy/listTasks/cgbcjr.json'
+16.09.2024 12:00:18 | Задача "gdfgdfg добавлена в список  "cgbcjr!
+16.09.2024 12:06:02 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:06:24 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:06:55 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:07:31 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:08:45 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:09:46 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:10:07 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:10:31 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:10:52 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:11:09 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+16.09.2024 12:11:34 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcтимтмитjr
+19.09.2024 15:13:56 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcтимтмитjr
+19.09.2024 15:14:03 | Вывод списка задач /home/administrator/Documents/Github/to-do-synergy/listsTasks/cgbcjr
+19.09.2024 15:49:11 | Задача "gdfgdfg" удалёна!
+19.09.2024 16:40:07 | Был изменён статус задачи Список дел на день.
+19.09.2024 16:40:19 | Был изменён статус задачи Список дел на день.
+19.09.2024 16:59:43 | При чтении задачи /home/administrator/Documents/Github/to-do-synergy/tasks/done.json возникла ошибка: Error: ENOENT: no such file or directory, open '/home/administrator/Documents/Github/to-do-synergy/tasks/done.json'

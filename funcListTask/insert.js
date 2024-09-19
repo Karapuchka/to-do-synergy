@@ -16,12 +16,12 @@ export default (taskName, listName)=>{
                 let newList = data.listTask.split(',');
 
                 for (let i = 0; i < newList.length; i++) {
-                    if(newList[i] == `./tasks/${taskName}.json`){
+                    if(newList[i] == `${taskName}`){
                         getLog(`Попытка повторно добавить задачу \"${taskName}\ в список \"${listName}\.`);
                         return console.log("Эта задача уже добавлена в этот список.");
                     }                   
                 }
-                newList.push(`./tasks/${taskName}.json`);
+                newList.push(`${taskName}`);
                 data.listTask = newList.join();
 
                 fs.writeFile(fs.realpathSync(`./listsTasks/${listName}.json`), JSON.stringify(data), (err)=>{

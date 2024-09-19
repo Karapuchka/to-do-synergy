@@ -24,11 +24,21 @@ switch (command) {
         break;
 
     case 'remove-task':
-            // funcTask.create(`${fs.realpathSync('.')}/tasks/${title}`);
+            funcTask.remove(title);
         break;
 
     case 'read-task':
-            funcTask.read((title != 'all') ? `${fs.realpathSync('.')}/tasks/${title}` : 'all');
+            if(title == 'all'){
+                funcTask.read(`all`);
+            } else if (title == 'done'){
+                funcTask.read(`done`);
+            } else{
+                funcTask.read(`${fs.realpathSync('.')}/tasks/${title}`);
+            }
+        break;
+
+    case 'done-task':
+            funcTask.done(title, text);
         break;
     
     case 'create-list': 
@@ -40,8 +50,12 @@ switch (command) {
         break;
 
     case 'read-list':
-            funcList.read((title != 'all') ? `${fs.realpathSync('.')}/listTasks/${title}` : 'all');
+            funcList.read((title != 'all') ? `${fs.realpathSync('.')}/listsTasks/${title}` : 'all');
         break;
+
+    case 'remove-list':
+            funcList.remove(title);
+        break;    
 
     default:
         console.log("Указанная некорректная команда! Список доступных комнад:");
